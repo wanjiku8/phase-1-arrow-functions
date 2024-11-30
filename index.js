@@ -1,10 +1,11 @@
 const add = (a, b) => a + b;
 
-function multiply(a, b) {
+function multiplyNumbers(a, b) {
     return a * b;
   }
-  
-  const multiply = (a, b) => a * b;
+
+  const multiplyNumbers = (a, b) => a * b;
+
 
   const nums = [1, 2, 3];
   const squares = nums.map(num => num ** 2);
