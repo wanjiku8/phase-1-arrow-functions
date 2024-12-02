@@ -1,19 +1,8 @@
-const foo = function() {
-  return 'bar';
+// Function expressions and arrow functions
+const divide = function(a, b) {
+  return a / b;
 };
 
-const add = (parameter1, parameter2) => parameter1 + parameter2;
+const square = x => x * x;
 
-const double = x => x * 2;
-
-
-const sum = (parameter1, parameter2) => {
-  console.log(`Adding ${parameter1}`);
-  console.log(`Adding ${parameter2}`);
-  return parameter1 + parameter2;
-};
-
-
-const nums = [1, 2, 3];
-const squares = nums.map(x => x ** 2);
-console.log(squares);  
+const add = (a, b) => a + b;
